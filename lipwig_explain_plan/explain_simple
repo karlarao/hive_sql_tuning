@@ -1,0 +1,4 @@
+python lipwig.py --simple $1 > explain.dot
+"/cygdrive/c/Program Files (x86)/Graphviz2.38/bin/"dot.exe -Tsvg -o explain_simple_$1.svg  explain.dot
+mv explain.dot explain_simple_$1.dot
+

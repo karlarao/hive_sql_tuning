@@ -1,0 +1,2 @@
+sh explain_simple $1
+sh explain_all $1
