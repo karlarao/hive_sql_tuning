@@ -13,6 +13,8 @@ explain_simple* file - just the simple high level node viz
 explain_all_* file - are the detailed EXPLAIN_PLAN with “Alias Name”, “Access and Filter Predicates”, “Projection/Columns”
 ```
 
+
 NOTE:
 * You can use OmniGraffle to be able to drag or rearrange the nodes of the .dot files
 * You can paste the contents of .dot files to http://viz-js.com/ or http://graphviz.it/#/QgMbDsZH
+* You can view the json files on http://jsonviewer.stack.hu/ for drill down and exploration 
