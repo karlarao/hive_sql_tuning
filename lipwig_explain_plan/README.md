@@ -8,10 +8,10 @@ Explain plan workflow:
     sh explain <json filename>
 ```
 4) view the svg from a web browser. there are two svg files:
-
+```
 explain_simple* file - just the simple high level node viz
 explain_all_* file - are the detailed EXPLAIN_PLAN with “Alias Name”, “Access and Filter Predicates”, “Projection/Columns”
-
+```
 
 NOTE:
 * You can use OmniGraffle to be able to drag or rearrange the nodes of the .dot files
