@@ -8,6 +8,6 @@ set hive.tez.exec.print.summary=true;
 
 explain formatted
 select count(employees.department_id)
-from employees 
-join departments 
+from hr.employees 
+join hr.departments 
 on employees.department_id = departments.department_id;
